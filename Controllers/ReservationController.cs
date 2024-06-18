@@ -31,7 +31,7 @@ namespace Backend_Zenicaorb.Controllers
         {
             Reservation reservation = new Reservation()
             {
-                Name = "Бронь" + $" №{DateTime.Now.Day} {DateTime.Now.Month} {DateTime.Now.Hour}",
+                Name = "Бронь" + $" №{DateTime.Now.Day}{DateTime.Now.Month}{DateTime.Now.Hour}",
                 StartDate = reserv.StartDate,
                 EndDate = reserv.EndDate,
                 Wishes = reserv.Wishes,
